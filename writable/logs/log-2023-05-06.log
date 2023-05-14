@@ -1,0 +1,13 @@
+WARNING - 2023-05-06 01:34:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-06 01:35:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-06 03:19:56 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

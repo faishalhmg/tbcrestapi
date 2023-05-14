@@ -1,0 +1,522 @@
+CRITICAL - 2023-05-04 12:17:50 --> Undefined variable $url
+in APPPATH\Controllers\RestClient.php on line 41.
+ 1 APPPATH\Controllers\RestClient.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\RestClient.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:22:00 --> 7 : Failed to connect to localhost port 8080 after 2221 ms: Connection refused
+in SYSTEMPATH\HTTP\CURLRequest.php on line 675.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(675): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('7', 'Failed to connect to localhost port 8080 after 2221 ms: Connection refused')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(381): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(143): CodeIgniter\HTTP\CURLRequest->send('GET', 'http://localhost:8080/pasien')
+ 4 APPPATH\Helpers\restclient_helper.php(41): CodeIgniter\HTTP\CURLRequest->request('GET', 'http://localhost:8080/pasien', [...])
+ 5 APPPATH\Controllers\RestClient.php(41): akses_restapi('GET', 'http://localhost:8080/pasien', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:22:46 --> Call to undefined function App\Controllers\getBody()
+in APPPATH\Controllers\RestClient.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:22:57 --> Call to a member function getBody() on string
+in APPPATH\Controllers\RestClient.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:22:58 --> Call to a member function getBody() on string
+in APPPATH\Controllers\RestClient.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:33:51 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:33:57 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:33:59 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:34:00 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:34:02 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:34:02 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:34:05 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 12:40:49 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2023-05-04 12:41:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 14:39:33 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-04 18:18:37 --> Class "App\Models\PasienModel" not found
+in APPPATH\Controllers\Register.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 18:21:42 --> Class "App\Models\PasienModel" not found
+in APPPATH\Controllers\Register.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Register->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 18:27:34 --> Undefined array key "password"
+in APPPATH\Controllers\Login.php on line 27.
+ 1 APPPATH\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\Login.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 18:28:07 --> Undefined array key "password"
+in APPPATH\Controllers\Login.php on line 27.
+ 1 APPPATH\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\Login.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 18:29:27 --> Cannot use object of type App\Models\ModelPasien as array
+in APPPATH\Controllers\Login.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 18:52:41 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 233.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4MzIyNjM2MSwiZXhwIjoxNjgzMjI5OTYxLCJlbWFpbCI6ImZhaXNoYWxobWcwMEBnbWFpbC5jb20ifQ', false, 'HS256')
+ 2 APPPATH\Controllers\Login.php(46): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 18:54:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 18:57:19 --> key must be a string when using hmac
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 233.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJc3N1ZXIgb2YgdGhlIEpXVCIsImF1ZCI6IkF1ZGllbmNlIHRoYXQgdGhlIEpXVCIsInN1YiI6IlN1YmplY3Qgb2YgdGhlIEpXVCIsImlhdCI6MTY4MzIyNjYzOSwiZXhwIjoxNjgzMjMwMjM5LCJlbWFpbCI6ImZhaXNoYWxobWcwMEBnbWFpbC5jb20ifQ', false, 'HS256')
+ 2 APPPATH\Controllers\Login.php(46): Firebase\JWT\JWT::encode([...], false, 'HS256')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:07:16 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/pasien', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:08:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-04 19:08:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-04 19:08:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 19:09:05 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/pasien', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:11:08 --> Key material must be a string, resource, or OpenSSLAsymmetricKey
+in VENDORPATH\firebase\php-jwt\src\Key.php on line 31.
+ 1 APPPATH\Filters\AuthFilter.php(52): Firebase\JWT\Key->__construct(false, 'HS256')
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/pasien', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:12:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:12:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:21:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 19:48:09 --> Undefined property: App\Controllers\DataKeluarga::$model
+in APPPATH\Controllers\DataKeluarga.php on line 12.
+ 1 APPPATH\Controllers\DataKeluarga.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataKeluarga::$model', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\DataKeluarga.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:48:31 --> "" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('riwayat', 'riwayat', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\DataKeluarga.php(27): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:49:52 --> Call to undefined method App\Controllers\DataKeluarga::fail()
+in APPPATH\Controllers\DataKeluarga.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:50:48 --> Undefined property: App\Controllers\DataKeluarga::$model
+in APPPATH\Controllers\DataKeluarga.php on line 12.
+ 1 APPPATH\Controllers\DataKeluarga.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataKeluarga::$model', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\DataKeluarga.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:54:06 --> Undefined property: App\Controllers\DataKeluarga::$model
+in APPPATH\Controllers\DataKeluarga.php on line 13.
+ 1 APPPATH\Controllers\DataKeluarga.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DataKeluarga::$model', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\DataKeluarga.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:55:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 19:55:16 --> Call to undefined method App\Controllers\DataKeluarga::respond()
+in APPPATH\Controllers\DataKeluarga.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:56:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:56:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:56:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:58:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 19:59:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:00:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:00:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:00:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:01:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:02:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:03:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:03:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:03:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:03:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:03:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:04:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+ERROR - 2023-05-04 20:04:29 --> mysqli_sql_exception: Column 'riwayat' cannot be null in C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\tbcrestapi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\tbcrestapi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tbcrestapi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tbcrestapi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tbcrestapi\app\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+#9 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+#10 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tbcrestapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tbcrestapi\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-04 20:04:29 --> Column 'riwayat' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', NULL, \'dasda\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', NULL, \'dasda\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', NULL, \'dasda\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (:nama:, :usia:, :riwayat:, :jenis:, :id_pasien:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:04:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+ERROR - 2023-05-04 20:04:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tbc_remind`.`data_keluarga`, CONSTRAINT `data_keluarga_ibfk_1` FOREIGN KEY (`id_pasien`) REFERENCES `pasien` (`id`)) in C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\tbcrestapi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\tbcrestapi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tbcrestapi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tbcrestapi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tbcrestapi\app\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+#9 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+#10 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tbcrestapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tbcrestapi\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-04 20:04:46 --> Cannot add or update a child row: a foreign key constraint fails (`tbc_remind`.`data_keluarga`, CONSTRAINT `data_keluarga_ibfk_1` FOREIGN KEY (`id_pasien`) REFERENCES `pasien` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'\', \'dasda\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'\', \'dasda\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'\', \'dasda\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (:nama:, :usia:, :riwayat:, :jenis:, :id_pasien:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:04:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+ERROR - 2023-05-04 20:04:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`tbc_remind`.`data_keluarga`, CONSTRAINT `data_keluarga_ibfk_1` FOREIGN KEY (`id_pasien`) REFERENCES `pasien` (`id`)) in C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\tbcrestapi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\tbcrestapi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tbcrestapi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tbcrestapi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tbcrestapi\app\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+#9 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+#10 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tbcrestapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\tbcrestapi\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-04 20:04:51 --> Cannot add or update a child row: a foreign key constraint fails (`tbc_remind`.`data_keluarga`, CONSTRAINT `data_keluarga_ibfk_1` FOREIGN KEY (`id_pasien`) REFERENCES `pasien` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'1\', \'dasda\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'1\', \'dasda\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (\'asdsa\', \'21\', \'1\', \'dasda\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `data_keluarga` (`nama`, `usia`, `riwayat`, `jenis`, `id_pasien`) VALUES (:nama:, :usia:, :riwayat:, :jenis:, :id_pasien:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DataKeluarga.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:05:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:05:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:06:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:07:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:09:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:09:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:09:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:10:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-04 20:12:51 --> Undefined variable $id_pasien
+in APPPATH\Controllers\DataKeluarga.php on line 57.
+ 1 APPPATH\Controllers\DataKeluarga.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_pasien', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\DataKeluarga.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataKeluarga->update('6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataKeluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:13:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:14:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:14:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-04 20:15:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\DataKeluarga::$model is deprecated in APPPATH\Controllers\DataKeluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataKeluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')

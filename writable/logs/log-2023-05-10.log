@@ -1,0 +1,160 @@
+CRITICAL - 2023-05-10 00:39:35 --> Undefined array key "access_token"
+in APPPATH\Helpers\restclient_helper.php on line 30.
+ 1 APPPATH\Helpers\restclient_helper.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Helpers\\restclient_helper.php', 30)
+ 2 APPPATH\Controllers\RestClient.php(41): akses_restapi('GET', 'http://localhost/tbcrestapi/public/auth', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 00:39:43 --> Undefined array key "access_token"
+in APPPATH\Helpers\restclient_helper.php on line 30.
+ 1 APPPATH\Helpers\restclient_helper.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Helpers\\restclient_helper.php', 30)
+ 2 APPPATH\Controllers\RestClient.php(41): akses_restapi('GET', 'http://localhost/tbcrestapi/public/auth', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 00:41:06 --> Undefined array key "access_token"
+in APPPATH\Helpers\restclient_helper.php on line 30.
+ 1 APPPATH\Helpers\restclient_helper.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Helpers\\restclient_helper.php', 30)
+ 2 APPPATH\Controllers\RestClient.php(41): akses_restapi('GET', 'http://localhost/tbcrestapi/public/auth', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 00:41:07 --> Undefined array key "access_token"
+in APPPATH\Helpers\restclient_helper.php on line 30.
+ 1 APPPATH\Helpers\restclient_helper.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "access_token"', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Helpers\\restclient_helper.php', 30)
+ 2 APPPATH\Controllers\RestClient.php(41): akses_restapi('GET', 'http://localhost/tbcrestapi/public/auth', [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RestClient->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestClient))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 00:53:20 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\HTTP\CURLRequest.php on line 672.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2023-05-10 03:13:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 03:16:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 14:22:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'tbc_remind', 3306, '', 0)
+#1 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\tbcrestapi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tbcrestapi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tbcrestapi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tbcrestapi\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#8 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tbcrestapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tbcrestapi\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\tbcrestapi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\tbcrestapi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\tbcrestapi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\tbcrestapi\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\tbcrestapi\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\tbcrestapi\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(934): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\tbcrestapi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tbcrestapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tbcrestapi\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-05-10 14:22:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pasien`
+WHERE `email` = :email:
+OR `nik` = :nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-10 14:55:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-10 14:57:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-10 14:57:34 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\Pasien.php(74): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pasien->update('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-10 14:57:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-10 14:57:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\Pasien.php(74): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pasien->update('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-10 14:58:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-10 14:58:18 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('6', [...])
+ 4 APPPATH\Controllers\Pasien.php(74): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pasien->update('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pasien))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-10 14:58:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-10 15:01:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')

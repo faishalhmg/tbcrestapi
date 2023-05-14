@@ -1,0 +1,116 @@
+WARNING - 2023-05-01 22:34:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+WARNING - 2023-05-01 22:35:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pasien::$model is deprecated in APPPATH\Controllers\Pasien.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Pasien->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:39:09 --> Class "Config\FilterJWT" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:45:01 --> Class "Config\FilterJWT" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:46:23 --> Class "Config\FilterJWT" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:50:31 --> Class "Config\FilterJWT" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:57:57 --> Class "Config\FilterJWT" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 22:59:59 --> Class "Config\FilterJwt" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:02:01 --> Class "Config\FilterJwt" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:07:20 --> Class "Config\FilterJwt" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:09:14 --> Class "Config\FilterJwt" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:11:24 --> Class "App\Filters\Services" not found
+in APPPATH\Filters\FilterJwt.php on line 24.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:13:44 --> Call to undefined method Exception::getMessege()
+in APPPATH\Filters\FilterJwt.php on line 26.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('pasien/', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:42:07 --> Undefined property: App\Controllers\Auth::$requst
+in APPPATH\Controllers\Auth.php on line 38.
+ 1 APPPATH\Controllers\Auth.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$requst', 'C:\\xampp\\htdocs\\tbcrestapi\\app\\Controllers\\Auth.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:45:00 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\tbcrestapi\app\Helpers\jwt_helper.php on line 32 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Helpers\jwt_helper.php(32): Firebase\JWT\JWT::encode([...], '2tbcrem1nd4pp')
+ 2 APPPATH\Controllers\Auth.php(49): createJWT('faishalhmg@yahoo.co.id')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:51:41 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp\htdocs\tbcrestapi\app\Helpers\jwt_helper.php on line 32
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 184.
+ 1 APPPATH\Helpers\jwt_helper.php(32): Firebase\JWT\JWT::encode([...], '2tbcrem1nd4pp', [...])
+ 2 APPPATH\Controllers\Auth.php(49): createJWT('faishalhmg@yahoo.co.id')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
+CRITICAL - 2023-05-01 23:52:15 --> Algorithm not supported
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 227.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(203): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJIMjU2In0.eyJlbWFpbCI6ImZhaXNoYWxobWdAeWFob28uY28uaWQiLCJpYXQiOjE2ODI5ODUxMzUsImV4cCI6MTY4Mjk4ODczNX0', '2tbcrem1nd4pp', 'H256')
+ 2 APPPATH\Helpers\jwt_helper.php(32): Firebase\JWT\JWT::encode([...], '2tbcrem1nd4pp', 'H256')
+ 3 APPPATH\Controllers\Auth.php(49): createJWT('faishalhmg@yahoo.co.id')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\tbcrestapi\\public\\index.php')
